@@ -29,11 +29,30 @@ box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 
 
 }
-#quizTime{
+.quiz-time {
     color:hsl(16, 100%, 56%);
-    margin-bottom:2px;}
+    text-align: center;
+    margin-bottom: 15px;
+}
+.quiz-time h2{
+    color:hsl(16, 100%, 56%);
+    text-align: center;
+    margin-bottom: 15px;
+}
+#restartBtn{
+    background-color:hsl(16, 100%, 56%);
+    color:white;
+    padding:15px;
+    text-align: center;
+    border-radius:10px;
+    margin-top:1px;
+    cursor:pointer;
+
+    display: block;
+    margin: 10px auto;
+}
    
-#startQuiz{
+.startQuiz{
   
     background-color:hsl(16, 100%, 56%);
     color:white;
@@ -77,16 +96,17 @@ box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);}
 
 .question-info{
     display: flex;
-    flex-direction: row;
+    
     justify-content: space-between;
     align-items: center;
     
 }
 .feedback{
     text-align:center;
-    font-size:1.5rem;
+    font-size:1.0rem;
     color:black;
     width:100%;
+    margin:3px;
 
     
 

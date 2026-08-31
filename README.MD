@@ -35,7 +35,7 @@ function dropHandler(ev) {
 <br>
 <img id="img1" src="img_logo.gif" draggable="true" ondragstart="dragstartHandler(event)" width="336" height="69">
 
-</body>
+</body>git 
 </html>
 <i class="fa-solid fa-user"></i>
 <i class="fa-solid fa-user" style="color: rgb(21, 238, 47);"></i>
